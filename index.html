@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page Website with Lightbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to My Gallery</h1>
+        <p>A collection of beautiful images with a lightbox effect.</p>
+    </header>
+
+    <!-- Image Gallery -->
+    <div class="gallery">
+        <img src="images/plant1.png" alt="Image 1" class="gallery-img">
+        <img src="images/plant2.png" alt="Image 2" class="gallery-img">
+        <img src="images/plant3.png" alt="Image 3" class="gallery-img">
+        <img src="images/plant4.png" alt="Image 4" class="gallery-img">
+    </div>
+
+    <!-- Modal/Lightbox -->
+    <div id="lightbox-modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="lightbox-img">
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
